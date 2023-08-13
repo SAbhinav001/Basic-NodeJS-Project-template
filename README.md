@@ -25,36 +25,19 @@ Lets take a look inside the src folder
 
 -SETUP this project
 
-. In the root directory , create a .enn and the following
+. In the root directory , create a .env and the following
 
  ```
  PORT= {Port number of your choice}
  ```
 
-. Inside the src/config, create config.json for DB and write follwing code. and the setup according to environment .
-    
+ -execute follwing command to get started.
  ```
- {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
-}
-```
+ npm install
+ ```
+
+. Go Inside the src folder , execute follwing command
+````
+npx sequelize init
+```` 
+-By executiong above command , you will get seeder, migration and config.json file and folder.
