@@ -23,7 +23,7 @@ Lets take a look inside the src folder
 
 `utils` -> contains helper methods, error classes etc.
 
--SETUP THIS project
+-SETUP this project
 
 . In the root directory , create a .enn and the following
 
